@@ -22,7 +22,7 @@ This project aims to encode a similar structure into early convolutional layers,
 **Tonotopic Organization Analysis**
 ![Baseline Centers](graphs/baseline_centers_1759903798.png)
 ![Baseline Preferred Frequencies](graphs/baseline_preferred_freqs_1759903798.png)
-![Baseline Tuning Heatmap](graphs/baseline_tuning_heat_1759903798.png)
+![Baseline Tuning Heatmap](graphs /neuro_tuning_heat_1759903797.png)
 
 ### Neuro-Inspired CNN Visualizations
 
