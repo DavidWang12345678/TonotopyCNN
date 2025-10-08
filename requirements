@@ -1,0 +1,9 @@
+torch>=2.0
+torchaudio
+torchvision
+datasets
+soundfile
+numpy
+pandas
+matplotlib
+tqdm
