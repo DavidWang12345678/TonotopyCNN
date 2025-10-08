@@ -11,7 +11,7 @@ This project aims to encode a similar structure into early convolutional layers,
 ## Results
 
 ### Performance Comparison
-![graphs /comparison_curves.png]
+![plot](graphs /comparison_curves.png)
 
 ### Baseline CNN Visualizations
 
