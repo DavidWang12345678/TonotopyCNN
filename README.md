@@ -12,24 +12,24 @@ This project aims to encode a similar structure into early convolutional layers,
 
 ### Performance Comparison
 
-![Comparison Curves](graphs/comparison_curves.png)
+![Comparison Curves](graphs /comparison_curves.png)
 
 ### Baseline CNN Visualizations
 
 **Conv1 Filters at Epoch 60**
-![Baseline Conv1 Filters](graphs/baseline_conv1_ep60.png)
+![Baseline Conv1 Filters](graphs /baseline_conv1_ep60.png)
 
 **Tonotopic Organization Analysis**
-![Baseline Centers](graphs/baseline_centers_1759903798.png)
-![Baseline Preferred Frequencies](graphs/baseline_preferred_freqs_1759903798.png)
-![Baseline Tuning Heatmap](graphs/baseline_tuning_heat_1759903798.png)
+![Baseline Centers](graphs /baseline_centers_1759903798.png)
+![Baseline Preferred Frequencies](graphs /baseline_preferred_freqs_1759903798.png)
+![Baseline Tuning Heatmap](graphs /baseline_tuning_heat_1759903798.png)
 
 ### Neuro-Inspired CNN Visualizations
 
 **Gabor-Initialized Conv1 Filters at Epoch 60**
-![Neuro Conv1 Filters](graphs/neuro_conv1_ep60.png)
+![Neuro Conv1 Filters](graphs /neuro_conv1_ep60.png)
 
 **Tonotopic Organization Analysis**
-![Neuro Centers](graphs/neuro_centers_1759903797.png)
-![Neuro Preferred Frequencies](graphs/neuro_preferred_freqs_1759903798.png)
-![Neuro Tuning Heatmap](graphs/neuro_tuning_heat_1759903797.png)
+![Neuro Centers](graphs /neuro_centers_1759903797.png)
+![Neuro Preferred Frequencies](graphs /neuro_preferred_freqs_1759903798.png)
+![Neuro Tuning Heatmap](graphs /neuro_tuning_heat_1759903797.png)
