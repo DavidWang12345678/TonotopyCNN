@@ -7,3 +7,5 @@ It compares a standard baseline CNN with a **tonotopic / Gabor-initialized CNN**
 
 In the human auditory system, neurons are spatially organized by the frequencies they respond to — a phenomenon known as **tonotopy**.
 This project aims to encode a similar structure into early convolutional layers, using **Gabor-like filters** and **frequency-based regularization**, to investigate whether such biologically inspired priors improve performance and interpretability.
+
+## Results
