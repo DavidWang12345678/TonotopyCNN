@@ -11,17 +11,17 @@ This project aims to encode a similar structure into early convolutional layers,
 ## Results
 
 ### Performance Comparison
-![plot](graphs /comparison_curves.png)
+[[![plot](graphs /comparison_curves.png)](https://graphs/baseline_conv1_ep60.png)](https://graphs/comparison_curves.png)
 
 ### Baseline CNN Visualizations
 
 Conv1 Filters at Epoch 60
-![graphs /baseline_conv1_ep60.png]
+[![graphs /baseline_conv1_ep60.png]](https://graphs/baseline_conv1_ep60.png)
 
 Tonotopic Organization Analysis
-![graphs /baseline_centers_1759903798.png]
-![graphs /baseline_preferred_freqs_1759903798.png]
-![graphs /baseline_tuning_heat_1759903798.png]
+[![graphs /baseline_centers_1759903798.png]](https://graphs/baseline_centers_1759903798.png)
+[![graphs /baseline_preferred_freqs_1759903798.png]](https://graphs/baseline_preferred_freqs_1759903798.png)
+[![graphs /baseline_tuning_heat_1759903798.png]](https://graphs/baseline_tuning_heat_1759903798.png)
 
 ### Neuro-Inspired CNN Visualizations
 
