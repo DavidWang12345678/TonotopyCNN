@@ -36,7 +36,7 @@ class AudioCNN(nn.Module):
 
 
 # Gabor init
-def make_simple_gabor(kH: int, kW: int, theta: float, sigma: float = 1.5, lambd: float = 3.0, gamma: float = 0.5, psi: float = 0.0):
+def gabor(kH: int, kW: int, theta: float, sigma: float = 1.5, lambd: float = 3.0, gamma: float = 0.5, psi: float = 0.0):
     half_h = kH // 2
     half_w = kW // 2
     y = np.arange(-half_h, half_h + 1)[:, None]
@@ -52,7 +52,7 @@ def apply_gabor_to_conv(conv: nn.Conv2d, orientations: int = 8):
     kernels = np.zeros((out_c, in_c, kH, kW), dtype=np.float32)
     for i in range(out_c):
         theta = oris[i % len(oris)]
-        g = make_simple_gabor(kH, kW, theta)
+        g = gabor(kH, kW, theta)
         for ch in range(in_c):
             kernels[i, ch] = g * (1.0 + 0.02 * np.random.randn(kH, kW))
     with torch.no_grad():
